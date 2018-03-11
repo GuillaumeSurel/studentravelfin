@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studentravel</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href='style.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!--NAVBAR-->
+
+  <div class="mynavbar">
+    <img class="logo" src="images/logo.png" alt="logo">
+      <form class="form-inline d-none d-md-block">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Rechercher</button>
+      </form>
+    <div class="d-none d-md-block">
+      <div class="navbar-links">
+        <a href="index.html">Accueil</a>
+        <a href="team.html">Qui sommes-nous ?</a>
+        <a href="mailto:contact@Studentravel.com">Contact</a>
+        <div class="dropdown show">
+          <img class="navbar-avatar dropdown-toggle" src="https://cdn.pixabay.com/photo/2016/03/31/19/57/avatar-1295406_960_720.png" alt="" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Mon profil</a>
+            <a class="dropdown-item" href="#">Mes réservations</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown show d-md-none">
+      <i class="fas fa-bars fa-2x hamburger" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="index.html">Accueil</a>
+        <a class="dropdown-item" href="team.html">Qui sommes-nous ?</a>
+        <a class="dropdown-item" href="mailto:contact@Studentravel.com">Contact</a>
+        <a class="dropdown-item" href="#">Mon profil</a>
+        <a class="dropdown-item" href="#">Mes réservations</a>
+      </div>
+    </div>
+  </div>
+
+<!--BANNER-->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 banner-image" src="https://images.pexels.com/photos/452738/pexels-photo-452738.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="First slide">
+      </div>
+      <div class="carousel-item banner-carousel">
+        <img class="d-block w-100 banner-image" src="https://images.pexels.com/photos/848682/pexels-photo-848682.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Second slide">
+      </div>
+      <div class="carousel-item banner-carousel">
+        <img class="d-block w-100 banner-image" src="https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="carousel-caption">
+      <h5>Trouvez votre voyage idéal avec Studentravel !</h5>
+      <h4>Des voyages inédits, inoubliables et clés en main.</h4>
+      <a class="btn btn-danger btn-lg" href="#voyages" role="button">C'est parti !</a>
+    </div>
+  </div>
+
+<!--VOYAGES-->
+  <div id="voyages" class="voyages">
+    <h2>Toutes les destinations à portée de main !</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>Grèce</h3>
+            <p><strong>Nos plus belles plages, une eau turquoise et des toits aux couleurs du ciel !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>500€</strong> !</p>
+            <img src="images/Grèce.jpg" alt="Grècebleu">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>Croatie</h3>
+            <p><strong>La fête, les plages et la ville dans un décor de rêve près de chez vous !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>500€</strong> !</p>
+            <img src="images/Croatie.jpg" alt="Croatieville">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <h3>Maroc</h3>
+              <p><strong>Des dunes, de soleil, des rencontres! Devenez l'aventurier du désert !</strong></p>
+              <ul>
+                <li>Printemps (04 avril-18 avril 2018)</li>
+                <li>Eté (10 juillet- 24 juillet 2018)</li>
+                <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+              </ul>
+              <p>Pour seulement <strong>300€</strong> !</p>
+              <img src="images/Maroc.jpg" alt="chameaux">
+              <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="wufoo-me8lac91xw12u6">
+                        Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                      </div>
+                      <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                      <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                      var s = d.createElement(t), options = {
+                      'userName':'guillaume317',
+                      'formHash':'me8lac91xw12u6',
+                      'autoResize':true,
+                      'height':'1107',
+                      'async':true,
+                      'host':'wufoo.com',
+                      'header':'show',
+                      'ssl':true};
+                      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                      s.onload = s.onreadystatechange = function() {
+                      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                      try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                      })(document, 'script');</script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>Hawaii</h3>
+            <p><strong>De la plongé, des mai-thai, du surf !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>1060€</strong> !</p>
+            <img src="images/Hawaii.jpg" alt="Hawaiiplage">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>Thailande</h3>
+            <p><strong>Le paradis à portée de main !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>1140€</strong> !</p>
+            <img src="images/Thailande.jpg" alt="Thailandeplage">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>Angleterre</h3>
+            <p><strong>Londres rien que pour vous !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>500€</strong> !</p>
+            <img src="images/Londres.jpg" alt="Londresbig">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>République Tchèque</h3>
+            <p><strong>Prague et sa tranquilité, vous en aurez pleins les yeux !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>400€</strong> !</p>
+            <img src="images/Prague.jpg" alt="RepTchèque">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>Japon</h3>
+            <p><strong>Tokyo, les mangas, la nightlife, choc culturel garantie !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>1200€</strong> !</p>
+            <img src="images/Tokyo.jpg" alt="Japon">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h3>France</h3>
+            <p><strong>Paris, à vous la gastronomie française, la mode, l'art et le romantisme !</strong></p>
+            <ul>
+              <li>Printemps (04 avril-18 avril 2018)</li>
+              <li>Eté (10 juillet- 24 juillet 2018)</li>
+              <li>Hiver (04  novembre- 18 novemebre 2018)</li>
+            </ul>
+            <p>Pour seulement <strong>350€</strong> !</p>
+            <img src="images/Paris.jpg" alt="France">
+            <a href="#"class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Je réserve !</a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="wufoo-me8lac91xw12u6">
+                      Fill out my <a href="https://guillaume317.wufoo.com/forms/me8lac91xw12u6">online form</a>.
+                    </div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                    <script type="text/javascript">var me8lac91xw12u6;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'guillaume317',
+                    'formHash':'me8lac91xw12u6',
+                    'autoResize':true,
+                    'height':'1107',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { me8lac91xw12u6 = new WufooForm();me8lac91xw12u6.initialize(options);me8lac91xw12u6.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--NEWSLETTER-->
+  <div class="newsletter">
+    <h2>Inscrivez-vous à notre newsletter pour ne pas manquer le voyage de vos rêves !</h2>
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+	   #mc_embed_signup{font:16px Raleway; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+      <form action="https://studentravel.us17.list-manage.com/subscribe/post?u=473d473dc746327cc687c34b0&amp;id=d2647f05b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+
+	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="example@mail.com" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_473d473dc746327cc687c34b0_d2647f05b9" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Je m'abonne" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger"></div>
+      </div>
+      </form>
+    </div>
+
+<!--End mc_embed_signup-->
+  </div>
+
+<!--PLAN-->
+  <div class="plan">
+  <h2> Où nous trouver ? </h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11316.43252712539!2d-0.5734397!3d44.839731199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1520018099769" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+<!--FOOTER-->
+  <div id="footer">
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+      <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+      <li class="list-inline-item"><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+      <li class="list-inline-item"><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+      <li class="list-inline-item"><a href="mailto:contact@Studentravel.com"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+    <p2>Tous droits réservés ©Studentravel</p2>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

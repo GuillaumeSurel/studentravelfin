@@ -1,0 +1,213 @@
+body {
+  color: #1C1C1C;
+  font-family: Raleway;
+
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #519E8A;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  margin-bottom: 35px;
+}
+
+h5 {
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  padding-bottom: 20px;
+  color: #F5841A;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/*NAVBAR*/
+
+.mynavbar {
+  background-color: rgba(250,250,250,0.9);
+  height: 70px;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #1C1C1C;
+  margin-right: 20px;
+}
+
+.navbar-links a:hover {
+  color: #BB0029;
+}
+
+.navbar-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hamburger {
+  margin-right: 20px;
+  color: grey;
+}
+
+.hamburger:hover {
+  color: #BB0029;
+  cursor: pointer;
+}
+
+/*BANNER*/
+
+.banner-image {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  z-index: 3;
+  left: 0 !important;
+  right: 0 !important;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.5) 15%);
+  bottom: 0px;
+  padding: 0 40px 30px 40px;
+  width: 100%;
+}
+
+/*VOYAGES*/
+
+.voyages {
+  padding-top: 90px;
+  background: linear-gradient(rgb(255,124,0) 0, rgb(249,249,249) 13%)
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.voyages ul {
+  text-align: left;
+}
+
+.voyages .btn-danger {
+  padding: 5px;
+  margin: 1px;
+  font-size: 17px;
+}
+
+img {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+/*NEWSLETTER*/
+
+.newsletter {
+  background: #F5841A;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.newsletter-form {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.newsletter .btn-danger {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/*PLAN*/
+
+.plan {
+  background: #519E8A;
+  padding-top: 20px;
+}
+
+/*FOOTER*/
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: grey;
+  text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+
+/*EQUIPE+CONCEPT*/
+.concept {
+    padding: 90px 40px 20px 40px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card2 {
+  text-align: center;
+}
